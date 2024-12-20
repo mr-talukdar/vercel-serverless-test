@@ -9,9 +9,6 @@ const API_TOKEN = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdjbXMtbWFpbi1wc
 const client = new Client({
     url: GRAPHQL_API_URL,
     fetchOptions: {
-        headers: {
-            Authorization: `Bearer ${API_TOKEN}`,
-        },
     },
 });
 
